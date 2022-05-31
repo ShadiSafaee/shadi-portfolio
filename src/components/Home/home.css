@@ -1,0 +1,109 @@
+.text_zone {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40%;
+  max-height: 90%;
+}
+.home_page h1 {
+  color: #5b321f;
+  font-size: 53px;
+  margin: 0;
+  font-weight: 400;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.home_page h1 ::before {
+  font-family: "La Belle Aurore";
+  color: beige;
+  font-size: 18px;
+  margin-top: -40px;
+  position: absolute;
+  left: 15px;
+  opacity: 0.6;
+}
+.home_page h1 ::after {
+  font-family: "La Belle Aurore";
+  color: beige;
+  font-size: 18px;
+  position: absolute;
+  margin-top: 18px;
+  margin-left: 20px;
+  animation: fadeIn 1s 1.7s backwards;
+  opacity: 0.6;
+}
+
+.home_page h1 img {
+  width: 30px;
+  margin-left: 20px;
+  opacity: 0;
+  width: 32px;
+  height: auto;
+  animation: rotateIn 0.5s linear both;
+  animation-delay: 1.4s;
+}
+.home_page h2 {
+  color: #5b321f;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 11px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  animation: fadeIn 1s 1.8s backwards;
+  padding-left: 27px;
+}
+
+.contact_button {
+  color: #e45f21;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #e45f21;
+  margin-top: 25px;
+  float: left;
+  animation: fadeInAnimation 1s 1.8s backwards;
+  white-space: nowrap;
+  margin: 40px 40px;
+}
+.contact_button :hover {
+  background: #e45f21;
+  color: #5b321f;
+}
+
+.top_tag_body {
+  color: #e45f21;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  opacity: 0.6;
+  position: absolute;
+  top: 5px;
+  left: 120px;
+}
+.bottom_tag_body {
+  color: #e45f21;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 5px;
+  left: 120px;
+}
+.top_tag_h1 {
+  color: #e45f21;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+.bottom_tag_h1 {
+  color: #e45f21;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+.my_name {
+  margin-left: 28px;
+}

@@ -1,0 +1,28 @@
+.about_container {
+  color: #5b321f;
+  font-family: "Courier New", Courier, monospace, cursive;
+  margin: 160px 70px;
+  font-size: 15px;
+  max-width: 50%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.info_button {
+  color: #e45f21;
+  font-size: 10px;
+  letter-spacing: 4px;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 2px 5px;
+  border: 1px solid #e45f21;
+  animation: fadeInAnimation 1s 1.8s backwards;
+  white-space: nowrap;
+  margin: 1px 70px;
+}
+.info_button :hover {
+  background: #e45f21;
+  color: #5b321f;
+}
+.info_container {
+  padding-left: 100px;
+}
