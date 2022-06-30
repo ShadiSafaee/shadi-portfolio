@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./about.css";
+import React from 'react'
+import { Link } from 'react-router-dom'
+import './about.css'
 
 const About = () => {
   return (
@@ -17,7 +17,7 @@ const About = () => {
         of Lorem Ipsum.
       </p>
       <div className="info_container">
-        <h3>Wanna know me better?</h3>
+        <h3>If you want to know me, click!</h3>
 
         <Link to="/moreinfo">
           <button className="info_button" type="button">
@@ -26,7 +26,7 @@ const About = () => {
         </Link>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About

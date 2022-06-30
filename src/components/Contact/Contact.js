@@ -1,11 +1,9 @@
-import React from "react";
-import "./contact.css";
-import Sidebar from "../Sidebar/Sidebar";
+import React from 'react'
+import './contact.css'
 
 const Contact = () => {
   return (
     <div className="container contact_page">
-      <Sidebar />
       <div className="text_zone">
         <h1>Contact me</h1>
         <p>
@@ -51,6 +49,6 @@ const Contact = () => {
         </div>
       </div>
     </div>
-  );
-};
-export default Contact;
+  )
+}
+export default Contact
